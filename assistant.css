@@ -5,7 +5,6 @@
 (: ---------------------------------------- :)
 (: Version : V 1.0.0 2017 | Coder Assistant :)
 (: ======================================== */
-
 * {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -17,7 +16,6 @@
 .ar {/* right to left */
     direction: rtl;
 }
-
 .en {/* left to right */
     direction: ltr;
 }
@@ -46,21 +44,28 @@
 .of-x {
     overflow-x: hidden;
 }
+/* display */
+.none, .m-none, .m-i-none {
+    display: none;
+}
+.s-none {
+    display: block;
+}
+.s-i-none {
+    display: inline-block;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 800px) {
+    .m-i-none {
+        display: inline-block;
+    }
+    .m-none {
+        display: block;
+    } 
+    .s-none, .s-i-none {
+        display: none;
+    }
+}
 
 
 
