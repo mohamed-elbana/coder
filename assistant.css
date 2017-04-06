@@ -19,7 +19,6 @@ img {
     max-width: 98%;
     margin: 1%;
 }
-
 /* direction */
 .ar {/* right to left */
     direction: rtl;
@@ -97,4 +96,5 @@ img {
 li.act {
     height: 1px;
     background-color: #eee;
+    list-style: none;
 }
