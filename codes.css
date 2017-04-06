@@ -160,3 +160,22 @@ a:link, a:visited, a:hover, a:active {
 .text-s {
     font-size: 14px;
 }
+
+.xxxl {
+	padding: 20px 40px;
+}
+.xxl {
+	padding: 16px 30px;
+}
+.xl {
+	padding: 12px 20px;
+}
+.l {
+	padding: 10px 15px;
+}
+.m {
+	padding: 10px;
+}
+.s {
+	padding: 5px;
+}
