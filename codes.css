@@ -1,0 +1,20 @@
+/* ================================================= *
+ * thanks for fontface.me,font cairo & font hakm :)  *
+ * ================================================= */
+@font-face{
+    font-family:'cairo';
+    src:url('https://www.fontstatic.com/fonts/cairo-light/cairo.eot?#iefix');
+    src:local('القاهرة خفيف'),local('cairo'),url('https://www.fontstatic.com/fonts/cairo/cairo.woff') format('woff');
+}
+.cairo {
+    font-family: 'cairo';
+}
+
+@font-face{
+    font-family:'vip-hakm';
+    src:url('https://www.fontstatic.com/fonts/vip-hakm/vip-hakm.eot?#iefix');
+    src:local('حاكم'),local('vip-hakm'),url('https://www.fontstatic.com/fonts/vip-hakm/vip-hakm.woff') format('woff');
+}
+.hakm {
+    font-family: 'vip-hakm';
+}
