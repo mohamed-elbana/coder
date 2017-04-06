@@ -12,6 +12,14 @@
     margin: 0;
     padding: 0;
 }
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+img {
+    max-width: 98%;
+    margin: 1%;
+}
+
 /* direction */
 .ar {/* right to left */
     direction: rtl;
@@ -84,4 +92,9 @@
     .max-right, .max-left {
         float: none;
     }
+}
+/* line */
+li.act {
+    height: 1px;
+    background-color: #eee;
 }
