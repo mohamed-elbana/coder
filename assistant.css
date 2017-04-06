@@ -25,13 +25,11 @@
     margin: auto;
     overflow: hidden;
 }
-
 @media screen and (max-width: 1000px) {/* at medium screen */
     .container {
         width: 85%;
     }
 }
-
 @media screen and (max-width: 800px) {/* at small screen */
     .container {
         width: 90%;
@@ -54,7 +52,6 @@
 .s-i-none {
     display: inline-block;
 }
-
 @media screen and (max-width: 800px) {
     .m-i-none {
         display: inline-block;
@@ -66,14 +63,25 @@
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
+/* text align */
+.center {/*center*/
+    text-align: center;
+}
+.t-left {/* left */
+    text-align: left;
+}
+.t-right {/* right */
+    text-align: right;
+}
+/* float */
+.right ,.max-right {
+    float: right;
+}
+.left ,.max-left {
+    float: left;
+}
+@media screen and (max-width: 800px) {
+    .max-right, .max-left {
+        float: none;
+    }
+}
