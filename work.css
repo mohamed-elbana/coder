@@ -130,7 +130,7 @@
 
     /* float */
 
-    .left {
+    .left ,.a1 i{
         float: left;
     }
     .right {
