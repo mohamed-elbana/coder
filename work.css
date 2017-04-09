@@ -39,7 +39,7 @@
         margin: auto;
     }
 
-    .lh a, .lh li {
+    .lh a, .lh i {
         line-height: 40px;
     }
 
@@ -94,7 +94,7 @@
         padding: 20px;
     }
 
-    .btn, .a a {
+    .btn, .a a ,.a1 i{
         display: inline-block;
     }
 
