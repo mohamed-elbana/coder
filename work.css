@@ -1,0 +1,190 @@
+/* ====================================================:)
+    (: Arabic Coders template | Designed by Mohamed Elbana :)
+    (:-----------------------------------------------------:)
+    (: Copyright © 2017, Arabic Coders | not to share this :)
+    (:-----------------------------------------------------:)
+    (: Template Version : V 1.0.0 | work Tm Version        :)
+    (:==================================================== */
+    
+    * {
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: #eee;
+        font: 20px 'vip-hakm';
+        margin-left: -250px;
+    }
+
+    @media screen and (ax-width: 900px) {
+        body {
+            font-size: 17px;
+        }
+    }
+    
+    a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+    }
+
+    h1,h2,h3,h4,h5,h6,a,.b {
+        color: #0d47a1;
+    }
+    
+    img {
+        max-width: 98%;
+        margin: auto;
+    }
+
+    .lh a, .lh li {
+        line-height: 40px;
+    }
+
+
+    li.act {
+        height: 1px;
+        background-color: #ccc;
+        list-style: nonne;
+    }
+    
+    /* direction */
+
+    .ar {
+        direction: rtl;
+    }
+
+    .en {
+        direction: ltr;
+    }
+
+    /* container */
+
+    .container {
+        width: 75%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .container {
+            width: 85%;
+        }
+    }
+
+    @media screen and (max-width: 800px ) {
+        .container {
+            width: 90%;
+        }
+    }
+
+    /* padding */
+
+    .pdg0 {
+        padding: 10px 0;
+    }
+
+    .pdg, .a a, .a1 a {
+        padding: 10px;
+    }
+
+    .pdg2 {
+        padding: 20px;
+    }
+
+    .btn, .a a {
+        display: inline-block;
+    }
+
+.text-xxxl {
+    font-size: 34px;
+}
+.text-xxl {
+    font-size: 30px;
+}
+.text-xl {
+    font-size: 26px;
+}
+.text-l {
+    font-size: 22px;
+}
+.text-m {
+    font-size: 18px;
+}
+.text-s {
+    font-size: 14px;
+}
+
+    .a1 a {
+        display: block;
+    }
+
+    .blue ,.blue a:hover.active {
+        background-color: #2196f3;
+    }
+    .blue a {
+        color: #fff;
+    }
+
+    /* float */
+
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+
+    /* position */
+
+    .rltv {
+        position: relative;
+    }
+
+    .fixed {
+        position: fixed;
+    }
+    .w {
+        width: 100%;
+    }
+    .w1 {
+        width: 250px;
+    }
+    .h {
+        height: 100%;
+    }
+
+    .tp {
+        top: 0;
+    }
+
+    .bm {
+        bottom: 0;
+    }
+
+    .rt {
+        right: 0;
+    }
+
+    .lt {
+        left: 0;
+    }
+
+    /* shadow */
+
+    .sdw {
+        box-shadow: 0 0 10px #777;
+    }
+
+    .t {
+        transition: 0.5s;
+    }
+
+.ofw {
+    overflow: hidden;
+}
+.ofw-x {
+    overflow-x: hidden;
+}
